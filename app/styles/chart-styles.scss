@@ -1,0 +1,127 @@
+.svgContainer {
+  background-color: #2a0d45;
+  border-radius: 6px;
+  .svgContentContainer {
+    .contentContainerBackgroundRect {
+      fill: #f1f1f1;
+    }
+    .yAxis text {
+      font-size: 10px;
+      color: #fff;
+    }
+    .xAxis text {
+      font-size: 10px;
+      margin-top: 20px;
+      padding-top: 20px;
+      color: #fff;
+      transform: translateY(2em) rotate(-45deg);
+    }
+    .xAxis {
+      .domain {
+        display: none;
+      }
+    }
+    .violinBoxGroup {
+      .boxPlot {
+        .upperWhiskerFence,
+        .upperWhiskerLine,
+        .lowerWhiskerFence,
+        .lowerWhiskerLine {
+          stroke-width: 2px;
+        }
+        .median {
+          stroke: #fff;
+          stroke-width: 1px;
+        }
+        .medianCircle {
+          fill: #fff;
+        }
+      }
+    }
+  }
+}
+
+.histogram-bar-text,
+.horizontal-bar-text {
+  color: #ff7f50;
+  font-size: 10px;
+}
+
+.select-appID {
+  width: auto !important;
+}
+
+.outer-container {
+  margin: 20px 0;
+  opacity: 0;
+  -webkit-animation: fade 0.5s linear 0s forwards;
+  animation: fade 0.5s linear 0s forwards;
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+.inner-container {
+  margin: 30px 0;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: left;
+  padding: 3px;
+  font-size: 10px;
+  background: lightcyan;
+  border: 0px;
+  border-radius: 1px;
+  pointer-events: none;
+  opacity: 0.85;
+}
+
+rect.box {
+  fill-opacity: 0.85;
+}
+
+.btn-default {
+  margin-bottom: 10px;
+}
+
+/*
+* Scatterplot
+*/
+.plot {
+  float: left;
+  padding-left: 5px;
+}
+
+.plot-title h3 {
+  margin-top: 7px;
+}
+
+.plot-title p {
+  font-size: 13px;
+}
+
+.axis-label {
+  padding-top: 5px;
+  font-size: 10px;
+  color: #888;
+}
+
+.chart-title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.Axis path,
+.Axis line {
+  stroke: #888;
+}
+
+.Axis text {
+  fill: #888;
+}
