@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import d3 from 'd3';
 import camerasData from '../../data/camerasData.json';
 
 import Scatterplot from '../../components/ScatterPlot';
@@ -27,7 +28,7 @@ const yOptions = [
   },
   {
     name: 'Sports & action score: Low-Light ISO',
-    key: 'sport',
+    key: 'sports',
     description:
       'Action photographers often struggle with low available light and fast motion in the scene. When shooting sports or action events, the photographer’s primary objective is to freeze motion, giving priority to short exposure times. To compensate for the lack of exposure, photographers have to increase the ISO setting, which results in a decreased signal-to-noise ratio (SNR).'
   }
@@ -55,18 +56,46 @@ class ScoreScatterPlot extends Component {
       minX: 0,
       minY: 0,
       maxX: 0,
-      maxY: 0
+      maxY: 0,
+      releaseDates: []
     };
+    this.handleYOptionChange = this.handleYOptionChange.bind(this);
+    this.handleXOptionChange = this.handleXOptionChange.bind(this);
+  }
+
+  componentWillMount() {
+    const brands = [];
+    const releaseDates = [];
+    camerasData.forEach(item => {
+      if (item.launch_date) {
+        releaseDates.push(new Date(item.launch_date));
+      }
+      if (!brands.includes(item.brand)) {
+        brands.push(item.brand);
+      }
+    });
+    releaseDates.sort((a, b) => a.getTime() - b.getTime());
+    this.setState(
+      {
+        brands,
+        releaseDates
+      },
+      () => this.prepareData()
+    );
   }
 
   prepareData() {
-    const yOptionKey = this.state.selectedY.key;
-    const xOptionKey = this.state.selectedX.key;
+    const { selectedX, selectedY, releaseDates } = this.state;
+    const yOptionKey = selectedY.key;
+    const xOptionKey = selectedX.key;
     const transformedData = camerasData.map(item => {
       return {
         ...item,
         y: item.scores ? item.scores[yOptionKey] : 0,
-        x: item[xOptionKey]
+        x:
+          xOptionKey === 'launch_date'
+            ? item[xOptionKey] ? new Date(item[xOptionKey]) : null
+            : item[xOptionKey]
       };
     });
 
@@ -75,14 +104,16 @@ class ScoreScatterPlot extends Component {
       camerasData.map(item => (item.scores ? item.scores[yOptionKey] : 0))
     );
 
-    const maxX = Math.max.apply(
-      Math,
-      camerasData.map(item => item[xOptionKey])
-    );
-    const minX = Math.min.apply(
-      Math,
-      camerasData.map(item => item[xOptionKey])
-    );
+    let maxX, minX;
+
+    if (xOptionKey === 'launch_date') {
+      // date:
+      minX = releaseDates[0];
+      maxX = releaseDates[releaseDates.length - 1];
+    } else {
+      maxX = Math.max.apply(Math, camerasData.map(item => item[xOptionKey]));
+      minX = Math.min.apply(Math, camerasData.map(item => item[xOptionKey]));
+    }
 
     this.setState({
       data: transformedData,
@@ -92,20 +123,25 @@ class ScoreScatterPlot extends Component {
     });
   }
 
-  componentWillMount() {
-    const brands = [];
-    camerasData.forEach(item => {
-      if (!brands.includes(item.brand)) {
-        brands.push(item.brand);
-      }
-    });
-    this.setState({
-      brands
-    });
-    this.prepareData();
+  handleYOptionChange(event) {
+    const yOptionIndex = event.target.value;
+    this.setState(
+      {
+        selectedY: yOptions[yOptionIndex]
+      },
+      () => this.prepareData()
+    );
   }
 
-  // handleYOptionChange(newYOption) {}
+  handleXOptionChange(event) {
+    const xOptionIndex = event.target.value;
+    this.setState(
+      {
+        selectedX: xOptions[xOptionIndex]
+      },
+      () => this.prepareData()
+    );
+  }
 
   getAnnotations(brand) {
     return [
@@ -144,7 +180,7 @@ class ScoreScatterPlot extends Component {
   renderPlotByBrand(brand, i, cValue, color) {
     // setup fill color
 
-    const { data, minX, maxX, minY, maxY } = this.state;
+    const { data, minX, maxX, minY, maxY, selectedX } = this.state;
 
     var annotations = this.getAnnotations(brand, i);
 
@@ -154,6 +190,7 @@ class ScoreScatterPlot extends Component {
           width={width}
           height={height}
           marginTop={40}
+          marginLeft={40}
           x={d => d.x}
           y={d => d.y}
           r={() => 5}
@@ -163,6 +200,11 @@ class ScoreScatterPlot extends Component {
           xTickArguments={[5]}
           yTickArguments={[5]}
           data={data}
+          xScale={
+            selectedX.key === 'launch_date'
+              ? d3.time.scale()
+              : d3.scale.linear()
+          }
         />
 
         <div style={{ position: 'absolute', left: 0, top: 0 }}>
@@ -175,7 +217,6 @@ class ScoreScatterPlot extends Component {
   }
 
   render() {
-    // this.prepareData();
     const { brands, selectedX, selectedY } = this.state;
     let cValue = d => d.brand;
     let color = d3.scale.category10();
@@ -185,17 +226,47 @@ class ScoreScatterPlot extends Component {
     );
 
     return (
-      <div className="plots">
-        <div
-          className="plot plot-title"
-          style={{ width: width - 50, marginRight: 50 }}
-        >
-          <h3>
-            {selectedY.name} vs. {selectedX.name}
-          </h3>
-          <p>{selectedY.description}</p>
+      <div>
+        <div style={{ width: '360px', paddingBottom: '20px' }}>
+          <div>
+            <label>Select Score type</label>
+            <select
+              className="form-control"
+              onChange={this.handleYOptionChange}
+            >
+              {yOptions.map((yOption, i) => (
+                <option key={i} value={i}>
+                  {yOption.name}
+                </option>
+              ))}
+            </select>
+          </div>
+          <div>
+            <label>Select Price / Release date</label>
+            <select
+              className="form-control"
+              onChange={this.handleXOptionChange}
+            >
+              {xOptions.map((xOption, i) => (
+                <option key={i} value={i}>
+                  {xOption.name}
+                </option>
+              ))}
+            </select>
+          </div>
         </div>
-        {plots}
+        <div className="plots">
+          <div
+            className="plot plot-title"
+            style={{ width: width - 50, marginRight: 50 }}
+          >
+            <h3>
+              {selectedY.name} vs. {selectedX.name}
+            </h3>
+            <p>{selectedY.description}</p>
+          </div>
+          {plots}
+        </div>
       </div>
     );
   }

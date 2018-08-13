@@ -31,15 +31,9 @@ class Scatterplot extends Component {
     var yDomain =
       this.props.yDomain || d3.extent(this.props.data, this.props.y);
 
-    var xScale = d3.scale
-      .linear()
-      .domain(xDomain)
-      .range([0, innerWidth]);
+    var xScale = this.props.xScale.domain(xDomain).range([0, innerWidth]);
 
-    var yScale = d3.scale
-      .linear()
-      .domain(yDomain)
-      .range([innerHeight, 0]);
+    var yScale = this.props.yScale.domain(yDomain).range([innerHeight, 0]);
 
     var xValue = d => xScale(this.props.x(d));
     var yValue = d => yScale(this.props.y(d));
@@ -103,7 +97,9 @@ Scatterplot.propTypes = {
   yDomain: PropTypes.array,
   xTickArguments: PropTypes.array,
   yTickArguments: PropTypes.array,
-  data: PropTypes.array.isRequired
+  data: PropTypes.array.isRequired,
+  xScale: PropTypes.func,
+  yScale: PropTypes.func
 };
 
 Scatterplot.defaultProps = {
@@ -119,7 +115,9 @@ Scatterplot.defaultProps = {
   fill: () => '#000',
   stroke: () => 'none',
   xTickArguments: [],
-  yTickArguments: []
+  yTickArguments: [],
+  xScale: d3.scale.linear(),
+  yScale: d3.scale.linear()
 };
 
 export default Scatterplot;
