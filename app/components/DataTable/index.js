@@ -22,8 +22,8 @@ class CameraDataTable extends Component {
             height: '100%',
             backgroundColor:
               row.value > highThreshold
-                ? '#85cc00'
-                : row.value > lowThreshold ? '#ffbf00' : '#ff2e00',
+                ? '#badc58'
+                : row.value > lowThreshold ? '#f6e58d' : '#ffbe76',
             borderRadius: '2px',
             transition: 'all .2s ease-out'
           }}

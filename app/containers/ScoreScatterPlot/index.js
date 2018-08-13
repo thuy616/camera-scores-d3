@@ -193,7 +193,7 @@ class ScoreScatterPlot extends Component {
           marginLeft={40}
           x={d => d.x}
           y={d => d.y}
-          r={() => 5}
+          r={() => 3}
           fill={d => (d.brand === brand ? color(cValue(d)) : '#ddd')}
           xDomain={[minX, maxX]}
           yDomain={[minY, maxY]}
