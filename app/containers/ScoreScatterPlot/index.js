@@ -226,7 +226,7 @@ class ScoreScatterPlot extends Component {
     );
 
     return (
-      <div>
+      <div style={{ paddingTop: '10px' }}>
         <div style={{ width: '360px', paddingBottom: '20px' }}>
           <div>
             <label>Select Score type</label>

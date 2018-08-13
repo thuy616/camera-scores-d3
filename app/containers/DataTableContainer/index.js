@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import camerasData from '../../data/camerasData.json';
 import CameraDataTable from '../../components/DataTable';
 
-export default class CameraVisualizations extends Component {
+export default class CameraDataTableContainer extends Component {
   render() {
     return (
       <div>

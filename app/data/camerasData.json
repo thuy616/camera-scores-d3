@@ -9,8 +9,7 @@
       "sports": 3730
     },
     "launch_date": "2018-02",
-    "image":
-      "https://static.bhphoto.com/images/images250x250/1519695934000_1394217.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/A7_III/vignette3.png",
     "price": 1998,
     "url":
       "https://www.bhphotovideo.com/c/product/1394217-REG/sony_ilce_7m3_alpha_a7_iii_mirrorless.html",
@@ -148,8 +147,7 @@
       "sports": 3523
     },
     "launch_date": "2017-10",
-    "image":
-      "https://static.bhphoto.com/images/images250x250/1508916028000_1369441.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/A7R_III/vignette3.png",
     "price": 2998,
     "url":
       "https://www.bhphotovideo.com/c/product/1369441-REG/sony_ilce7rm2_b_alpha_a7r_iii_mirrorless.html",
@@ -292,7 +290,7 @@
       "sports": 807
     },
     "launch_date": "2017-03",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/Lumix_DC-GH5/vignette3.png",
     "price": 1697.99,
     "url":
       "https://www.bhphotovideo.com/c/product/1283257-REG/panasonic_dmc_gh5_mirrorless_micro_four.html",
@@ -419,7 +417,7 @@
     "name": "Lumix DC-GH5S Mirrorless Micro Four Thirds Digital Camera",
     "brand": "Panasonic",
     "launch_date": "2018-01",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/Lumix_DC-GH5S/vignette3.png",
     "price": 2297.99,
     "url":
       "https://www.bhphotovideo.com/c/product/1382031-REG/panasonic_lumix_dc_gh5s_mirrorless_micro.html",
@@ -547,7 +545,7 @@
     "name": "X-T2 Mirrorless Digital Camera (Body Only)",
     "brand": "Fujifilm",
     "launch_date": "2016-09",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/XT-2/vignette3.png",
     "price": 1099.95,
     "url":
       "https://www.bhphotovideo.com/c/product/1263381-REG/fujifilm_x_t2_mirrorless_digital_camera.html",
@@ -672,7 +670,7 @@
     "name": "EOS M50 Mirrorless Digital Camera (Body Only, Black)",
     "brand": "Canon",
     "launch_date": "2018-02",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/EOS_M50/vignette3.png",
     "price": 629,
     "url":
       "https://www.bhphotovideo.com/c/product/1393460-REG/canon_2680c001_eos_m50_mirrorless_digital.html",
@@ -798,7 +796,8 @@
       "sports": 1312
     },
     "launch_date": "2016-12",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image":
+      "https://cdn.dxomark.com/dakdata/xml/OM-D_E-M1_Mark_II/vignette3.png",
     "price": 1699,
     "url":
       "https://www.bhphotovideo.com/c/product/1283565-REG/olympus_om_d_e_m1_mark_ii.html",
@@ -939,7 +938,7 @@
       "Lumix DC-G9 Mirrorless Micro Four Thirds Digital Camera (Body Only)",
     "brand": "Panasonic",
     "launch_date": "2017-12",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/Lumix_DC-G9/vignette3.png",
     "price": 1697.99,
     "url":
       "https://www.bhphotovideo.com/c/product/1367104-REG/panasonic_dc_g9kbody_lumix_dc_g9_mirrorless_micro.html",
@@ -1064,7 +1063,7 @@
     "name": "X-H1 Mirrorless Digital Camera (Body Only)",
     "brand": "Fujifilm",
     "launch_date": "2018-02",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/X-H1/vignette3.png",
     "price": 1649.95,
     "url":
       "https://www.bhphotovideo.com/c/product/1388297-REG/fujifilm_16568731_x_h1_mirrorless_digital_camera.html",
@@ -1190,7 +1189,7 @@
       "sports": 2248
     },
     "launch_date": "2014-04",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/A7/vignette3.png",
     "price": 798,
     "url":
       "https://www.bhphotovideo.com/c/product/1008114-REG/sony_ilce7_b_a7_mirrorless_digital_camera.html",
@@ -1315,7 +1314,7 @@
       "sports": 791
     },
     "launch_date": "2014-04",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/Lumix_DMC-GH4/vignette3.png",
     "price": 997.99,
     "url":
       "https://www.bhphotovideo.com/c/product/1028453-REG/panasonic_dmc_gh4kbody_lumix_dmc_gh4_mirrorless_micro.html",
@@ -1447,7 +1446,7 @@
       "sports": 1405
     },
     "launch_date": "2016-12",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/A6500/vignette3.png",
     "price": 1098,
     "url":
       "https://www.bhphotovideo.com/c/product/1289585-REG/sony_alpha_a6500_mirrorless_digital.html",
@@ -1590,7 +1589,7 @@
       "sports": 2993
     },
     "launch_date": "2015-09",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/A7S_II/vignette3.png",
     "price": 2398,
     "url":
       "https://www.bhphotovideo.com/c/product/1186034-REG/sony_ilce7sm2_b_alpha_a7sii_mirrorless_digital.html",
@@ -1719,7 +1718,7 @@
       "X-T2 Mirrorless Digital Camera (Body Only, Graphite Silver Edition)",
     "brand": "Fujifilm",
     "launch_date": "2017-02",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/XT-2/vignette3.png",
     "price": 1299.95,
     "url":
       "https://www.bhphotovideo.com/c/product/1307716-REG/fujifilm_16520882_fujifilm_x_t2_mirrorless_digital.html",
@@ -1850,7 +1849,7 @@
       "sports": 3434
     },
     "launch_date": "2015-05",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/A7R_II/vignette3.png",
     "price": 1998,
     "url":
       "https://www.bhphotovideo.com/c/product/1159878-REG/sony_a7r_mark_ii_digital.html",
@@ -1987,7 +1986,7 @@
       "sports": 2133
     },
     "launch_date": "2017-01",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/M10/vignette3.png",
     "price": 7295,
     "url":
       "https://www.bhphotovideo.com/c/product/1312198-REG/leica_20000_m10_digital_rangefinder_camera.html",
@@ -2068,7 +2067,7 @@
       "sports": 3517
     },
     "launch_date": "2017-05",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/a9/vignette3.png",
     "price": 4499,
     "url":
       "https://www.bhphotovideo.com/c/product/1333228-REG/sony_ilce_9_b_alpha_a9_mirrorless_digital.html",
@@ -2193,7 +2192,8 @@
       "OM-D E-M10 Mark III Mirrorless Micro Four Thirds Digital Camera (Body Only, Silver)",
     "brand": "Olympus",
     "launch_date": "2017-09",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image":
+      "https://cdn.dxomark.com/dakdata/xml/OM-D_E-M10_Mark_III/vignette3.png",
     "price": 599,
     "url":
       "https://www.bhphotovideo.com/c/product/1351006-REG/olympus_v207070su000_e_m10_mark_iii_slr.html",
@@ -2326,7 +2326,7 @@
       "sports": 894
     },
     "launch_date": "2016-02",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/PEN-F/vignette3.png",
     "price": 999,
     "url":
       "https://www.bhphotovideo.com/c/product/1219324-REG/olympus_pen_f_mirrorless_micro_four.html",
@@ -2461,7 +2461,7 @@
       "sports": 2449
     },
     "launch_date": "2014-12",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/A7_II/vignette3.png",
     "price": 1098,
     "url":
       "https://www.bhphotovideo.com/c/product/1102008-REG/sony_ilce7m2_b_a7ii_mirrorless_digital_camera.html",
@@ -2590,7 +2590,7 @@
     "name": "X-T100 Mirrorless Digital Camera (Body Only, Dark Silver)",
     "brand": "Fujifilm",
     "launch_date": "2018-05",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/X-T10/vignette3.png",
     "price": 599.95,
     "url":
       "https://www.bhphotovideo.com/c/product/1410643-REG/fujifilm_16581965_x_t100_mirrorless_digital_camera.html",
@@ -2719,7 +2719,8 @@
       "sports": 896
     },
     "launch_date": "2015-02",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image":
+      "https://cdn.dxomark.com/dakdata/xml/OM-D_E-M5_Mark_II/vignette3.png",
     "price": 899,
     "url":
       "https://www.bhphotovideo.com/c/product/1116760-REG/olympus_v207040su000_om_d_e_m5_mark_ii.html",
@@ -2838,7 +2839,7 @@
       "sports": 1347
     },
     "launch_date": "2014-02",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/A6000/vignette3.png",
     "price": 498,
     "url":
       "https://www.bhphotovideo.com/c/product/1029861-REG/sony_ilce6000_b_alpha_a6000_mirrorless_digital.html",
@@ -2972,7 +2973,7 @@
       "sports": 1437
     },
     "launch_date": "2016-02",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/A6300/vignette3.png",
     "price": 798,
     "url":
       "https://www.bhphotovideo.com/c/product/1222744-REG/sony_ilce6300_b_alpha_a63000_mirrorless_digital.html",
@@ -3114,7 +3115,8 @@
       "sports": 1262
     },
     "launch_date": "2016-11",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image":
+      "https://cdn.dxomark.com/dakdata/xml/OM-D_E-M5_Mark_II/vignette3.png",
     "price": 829,
     "url":
       "https://www.bhphotovideo.com/c/product/1281373-REG/canon_1279c001aa_eos_m5_mirrorless_digital.html",
@@ -3173,7 +3175,8 @@
       "sports": 842
     },
     "launch_date": "2015-08",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image":
+      "https://cdn.dxomark.com/dakdata/xml/OM-D_E-M5_Mark_II/vignette3.png",
     "price": 549,
     "url":
       "https://www.bhphotovideo.com/c/product/1179097-REG/olympus_v207050bu000_om_d_e_m10_mark_ii.html",
@@ -3301,7 +3304,7 @@
     "name": "X-E3 Mirrorless Digital Camera (Body Only, Silver)",
     "brand": "Fujifilm",
     "launch_date": "2017-09",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/X-E3/vignette3.png",
     "price": 899.95,
     "url":
       "https://www.bhphotovideo.com/c/product/1358088-REG/fujifilm_16558401_x_e3_mirrorless_digital_camera.html",
@@ -3426,7 +3429,8 @@
       "OM-D E-M10 Mark III Mirrorless Micro Four Thirds Digital Camera (Body Only, Black)",
     "brand": "Olympus",
     "launch_date": "2017-09",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image":
+      "https://cdn.dxomark.com/dakdata/xml/OM-D_E-M10_Mark_II/vignette3.png",
     "price": 599,
     "url":
       "https://www.bhphotovideo.com/c/product/1351005-REG/olympus_v207070bu000_e_m110_mark_iii_slr.html",
@@ -3552,7 +3556,7 @@
     "name": "CL Mirrorless Digital Camera (Black, Body Only)",
     "brand": "Leica",
     "launch_date": "2017-11",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/C/vignette3.png",
     "price": 2795,
     "url":
       "https://www.bhphotovideo.com/c/product/1376598-REG/leica_19301_cl_mirrorless_digital_camera.html",
@@ -3655,7 +3659,7 @@
       "sports": 1821
     },
     "launch_date": "2015-10",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/SL_(Typ_601)/vignette3.png",
     "price": 5995,
     "url":
       "https://www.bhphotovideo.com/c/product/1192093-REG/leica_10850_sl_typ_601_mirrorless.html",
@@ -3772,7 +3776,7 @@
       "sports": 1317
     },
     "launch_date": "2017-04",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/EOS_M6/vignette3.png",
     "price": 579,
     "url":
       "https://www.bhphotovideo.com/c/product/1318278-REG/canon_eos_m6_mirrorless_digital.html",
@@ -3890,7 +3894,8 @@
       "sports": 842
     },
     "launch_date": "2015-08",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image":
+      "https://cdn.dxomark.com/dakdata/xml/OM-D_E-M10_Mark_II/vignette3.png",
     "price": 549,
     "url":
       "https://www.bhphotovideo.com/c/product/1179098-REG/olympus_v207050su000_om_d_e_m10_mark_ii.html",
@@ -4018,7 +4023,7 @@
     "name": "X-E3 Mirrorless Digital Camera (Body Only, Black)",
     "brand": "Fujifilm",
     "launch_date": "2017-09",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/X-E3/vignette3.png",
     "price": 899.95,
     "url":
       "https://www.bhphotovideo.com/c/product/1358089-REG/fujifilm_16558530_x_e3_mirrorless_digital_camera.html",
@@ -4142,7 +4147,7 @@
     "name": "TL2 Mirrorless Digital Camera (Black)",
     "brand": "Leica",
     "launch_date": "2017-07",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/TL2/vignette3.png",
     "price": 2195,
     "url":
       "https://www.bhphotovideo.com/c/product/1348985-REG/leica_18187_tl2_mirrorless_digital_camera.html",
@@ -4236,7 +4241,7 @@
     "name": "X-T20 Mirrorless Digital Camera (Body Only, Black)",
     "brand": "Fujifilm",
     "launch_date": "2017-02",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/X-T20/vignette3.png",
     "price": 899.95,
     "url":
       "https://www.bhphotovideo.com/c/product/1311248-REG/fujifilm_16542490_x_t20_camera_black.html",
@@ -4455,7 +4460,7 @@
     "name": "X-Pro2 Mirrorless Digital Camera (Body Only)",
     "brand": "Fujifilm",
     "launch_date": "2016-03",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/X-Pro2/vignette3.png",
     "price": 1699.95,
     "url":
       "https://www.bhphotovideo.com/c/product/1210892-REG/fujifilm_16488618_x_pro2_mirrorless_digital_camera.html",
@@ -4573,7 +4578,7 @@
     "name": "M-P (Typ 240) Digital Rangefinder Camera (Black)",
     "brand": "Leica",
     "launch_date": "2014-09",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/M-P_Typ_240/vignette3.png",
     "price": 5995,
     "url":
       "https://www.bhphotovideo.com/c/product/1077774-REG/leica_10773_m_p_digital_rangefinder_camera.html",
@@ -4669,7 +4674,7 @@
       "sports": 806
     },
     "launch_date": "2015-09",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/Lumix_DMC-GX8/vignette3.png",
     "price": 997.99,
     "url":
       "https://www.bhphotovideo.com/c/product/1208865-REG/panasonic_lumix_dmc_gx8_mirrorless_micro.html",
@@ -4936,7 +4941,7 @@
       "sports": 1347
     },
     "launch_date": "2014-09",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/A5100/vignette3.png",
     "price": 448,
     "url":
       "https://www.bhphotovideo.com/c/product/1076396-REG/sony_ilce_5100b_alpha_a5100_mirrorless_digital.html",
@@ -5054,7 +5059,7 @@
       "PEN E-PL9 Mirrorless Micro Four Thirds Digital Camera (Body Only, Black)",
     "brand": "Olympus",
     "launch_date": "2018-03",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/PEN_E-PL9/vignette3.png",
     "price": 599,
     "url":
       "https://www.bhphotovideo.com/c/product/1395516-REG/olympus_v205090bu000_pen_e_pl9_mirrorless_micro.html",
@@ -5173,7 +5178,7 @@
     "name": "M (Typ 262) Digital Rangefinder Camera",
     "brand": "Leica",
     "launch_date": "2015-11",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/M_Typ_262/vignette3.png",
     "price": 4995,
     "url":
       "https://www.bhphotovideo.com/c/product/1202012-REG/leica_m_typ_262_digital.html",
@@ -5254,7 +5259,7 @@
   {
     "name": "X-T1 IR Mirrorless Digital Camera (Body Only)",
     "brand": "Fujifilm",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/X-T1/vignette3.png",
     "price": 1699,
     "url":
       "https://www.bhphotovideo.com/c/product/1174988-REG/fujifilm_x_t1_ir_mirrorless_digital.html",
@@ -5383,7 +5388,7 @@
     "name":
       "PEN E-PL8 Mirrorless Micro Four Thirds Digital Camera (Body Only, White)",
     "brand": "Olympus",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/PEN_E-PL8/vignette3.png",
     "price": 499,
     "url":
       "https://www.bhphotovideo.com/c/product/1281403-REG/olympus_v205080wu000_pen_e_pl8_mirrorless_micro.html",
@@ -5508,7 +5513,7 @@
       "sports": 1860
     },
     "launch_date": "2015-11",
-    "image": "https://static.bhphoto.com/images/itemImgPlaceholder.jpg",
+    "image": "https://cdn.dxomark.com/dakdata/xml/M-P_Typ_240/vignette3.png",
     "price": 5995,
     "url":
       "https://www.bhphotovideo.com/c/product/893170-USA/Leica_10770_M_Digital_Camera_Black.html",

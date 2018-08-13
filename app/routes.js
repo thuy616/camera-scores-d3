@@ -22,7 +22,7 @@ export default function createRoutes(store) {
       name: 'home',
       getComponent(nextState, cb) {
         const importModules = Promise.all([
-          import('containers/ScoreScatterPlot')
+          import('containers/Visualizations')
         ]);
 
         const renderRoute = loadModule(cb);
