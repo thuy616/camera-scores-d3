@@ -5,7 +5,7 @@ import camerasData from '../../data/camerasData.json';
 import Scatterplot from '../../components/ScatterPlot';
 
 var width = 400;
-var height = 320;
+var height = 300;
 
 const yOptions = [
   {

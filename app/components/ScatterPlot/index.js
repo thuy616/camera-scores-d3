@@ -5,18 +5,6 @@ import Points from './Points';
 import Axis from './Axis';
 
 class Scatterplot extends Component {
-  // handleOnMouseOver(e) {
-  //   // TODO:
-  // }
-  //
-  // handleOnMouseMove(e) {
-  //   // TODO:
-  // }
-  //
-  // handleOnMouseOut(e) {
-  //   // TODO:
-  // }
-
   render() {
     var innerWidth =
       this.props.width - this.props.marginLeft - this.props.marginRight;
@@ -43,6 +31,7 @@ class Scatterplot extends Component {
 
     var pointsData = this.props.data.map(d => {
       return {
+        ...d,
         x: xValue(d),
         y: yValue(d),
         r: rValue(d),
